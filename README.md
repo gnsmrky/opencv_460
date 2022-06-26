@@ -1,3 +1,5 @@
+This repo is a fork of [OpenCV 4.6.0](https://github.com/opencv/opencv/tree/4.6.0).
+
 ## OpenCV: Open Source Computer Vision Library
 
 ### Resources
