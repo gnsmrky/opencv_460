@@ -1,21 +1,23 @@
-This repo is a fork of [OpenCV 4.6.0](https://github.com/opencv/opencv/tree/4.6.0) with added notes for building with python 3 and Vulkan support.
+[This repo](https://github.com/gnsmrky/opencv_460.git) is a fork of [OpenCV 4.6.0](https://github.com/opencv/opencv/tree/4.6.0) with added notes for building with Python 3 and Vulkan support.
 
 ## Build OpenCV 4.6.0
 Steps to build OpenCV 4.6.0 on the following distros.  It builds and installs OpenCV 4.6.0 and python binding to user local folder.
 
 1. Ubuntu 22.04 LTS
 1. Windows 11 WSL2 Ubuntu 22.04
-1. Chromebook OS 102 (bullseye)
+1. Chromebook OS 102 (Bullseye)
+
+For Ubuntu prior 22.04 or Debian prior Bullseye, follow [LunarG Vulkan SDK Packages](https://packages.lunarg.com/) to setup Vulkan SDK. 
 
 ### Build steps:  
 
-1. Install dependencies
-   - Pckage depencies  
+1. Install dependencies.
+
    ```
    sudo apt install build-essential cmake libvulkan-dev python3-dev python3-pip python3-numpy 
    ```
 
-1. Setup python dependencies
+1. Setup python dependencies.
    - Setup and switch to the desired `virtualenv` if needed.
    ```
    pip3 install virtualenv
